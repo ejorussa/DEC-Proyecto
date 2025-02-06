@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AHP.Menu"
+             Title="Menu">
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <VerticalStackLayout>
+                <Label Text="Cantidad de Alternativas:"/>
+                <Entry x:Name="alternativas"/>
+                <Label Text="Cantidad de Criterios"/>
+                <Entry x:Name="criterios"/>
+            </VerticalStackLayout>
+            <Button Text="Ejecutar" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>
